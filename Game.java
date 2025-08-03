@@ -96,12 +96,12 @@ public class Game{
                         }
                         if(winner!=null)
                         {
-                            JOptionPane.showMessageDialog(null, "Player: "+winner+" wins");
+                            JOptionPane.showMessageDialog(null, "Player: "+winner+" wins!");
                             reset(buttons);
                         }
                         else if(isDraw(buttons))
                         {
-                            JOptionPane.showMessageDialog(null, "Draw");
+                            JOptionPane.showMessageDialog(null, "Draw!");
                             reset(buttons);
                         }
                     }
@@ -147,3 +147,4 @@ class Background extends JPanel {
         g.drawImage(img, 0, 0, 400, 400, this);
     }
 }
+
