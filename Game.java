@@ -30,7 +30,7 @@ public class Game{
         // Fill buttons with resized image
         for (int row = 0; row < 3; row++) {
             for (int col = 0; col < 3; col++) {
-                Font font=new Font("Arial", Font.BOLD, 60);
+                Font font=new Font("DialogInput", Font.BOLD, 60);
                 buttons[row][col] = new JButton("");
                 buttons[row][col].setIcon(resizedIcon);
                 buttons[row][col].setFont(font);
@@ -147,4 +147,5 @@ class Background extends JPanel {
         g.drawImage(img, 0, 0, 400, 400, this);
     }
 }
+
 
